@@ -1,0 +1,13 @@
+.
+├── ajaxApp.py
+├── Pipfile
+├── Pipfile.lock
+├── requirements.txt
+├── static
+│   ├── script.js
+│   └── style.css
+├── templates
+│   └── index.html
+└── tree.txt
+
+3 directories, 8 files

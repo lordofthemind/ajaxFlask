@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #c1f0c1; /* light green background */
+}
+
+#ajaxButton {
+    flex: 1; /* 1/4 of the screen */
+    margin: 16px;
+    padding: 12px;
+    border: 2px solid #4caf50; /* green border */
+    border-radius: 10px; /* rounded corners */
+    background-color: #4caf50; /* green background */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#catImage {
+    flex: 3; /* 3/4 of the screen */
+    margin: 16px;
+    border: 2px solid #4caf50; /* green border */
+    border-radius: 10px; /* rounded corners */
+    padding: 12px;
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+
+#result {
+    text-align: center;
+    margin: 8px;
+}
